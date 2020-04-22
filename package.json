@@ -4,12 +4,17 @@
   "description": "livestream on instagram using node",
   "main": "js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./js/main.js"
   },
   "author": "Konstantin Hohr",
   "license": "ISC",
   "dependencies": {
+    "@types/luxon": "^1.22.0",
+    "electron": "^6.0.8",
     "instagram-private-api": "^1.39.2",
+    "luxon": "^1.23.0",
     "ts-node": "^8.8.2",
     "typescript": "^3.8.3"
   }
