@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    height: 100vh;
+}
+
+.header {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.copy {
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.screen {
+    display: flex;
+    height: 100%;
+}
+
+.fifty { 
+    padding: 30px;
+    flex: 50%;
+}
+
+.chat {
+    background-color: lightgrey;
+}
+
+.chatbox {
+    height: 75%;
+    overflow: scroll;
+}
+
+.chatbox > ul {
+    list-style: none;
+}
+
+.chatbox > ul > li {
+    margin: 5px 0 5px 0;
+}
+
+button {
+    border: none;
+    padding: 0;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: large;
+}
+
+button:hover {
+    box-shadow: 1px 1px black;
+}
+
+button:active {
+    box-shadow: none;
+}
