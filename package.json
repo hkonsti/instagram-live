@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/luxon": "^1.22.0",
-    "electron": "^6.0.8",
+    "electron": "^7.2.4",
     "instagram-private-api": "^1.39.2",
     "luxon": "^1.23.0",
     "ts-node": "^8.8.2",
